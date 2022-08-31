@@ -74,7 +74,6 @@ function ajax_file_upload(name) {
             progressArea.style.display = "block";
             progressArea.innerHTML = progressHTML;
             if (fileLoaded == 100) {
-                console.log(fileLoaded);
                 Dropfile.innerHTML = "<strong>" + name[0].name + "</strong>";
                 progressArea.style.display = "none";
             }
